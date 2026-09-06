@@ -1,0 +1,21 @@
+{
+  "pass": false,
+  "checks": {
+    "exactly_six_unique": true,
+    "all_http_success": true,
+    "all_machine_success": true,
+    "thinking_off": true,
+    "no_reasoning_content": true,
+    "length_bands": false,
+    "implicit_second_hit": true,
+    "explicit_creation_seen": true,
+    "explicit_second_hit": true,
+    "cold_has_no_hit": true
+  },
+  "level_prompt_token_medians": {
+    "L1": 3163.0,
+    "L2": 9409.0,
+    "L3": 15654.0
+  },
+  "source_sha256": "d82a5fbec8d2fa34f36446bcb7cf39c6ce6286df25753fb4354d645ca4f5077d"
+}

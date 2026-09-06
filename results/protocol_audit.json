@@ -1,0 +1,155 @@
+{
+  "raw_sha256": "1992f3e0d92a1d7d401f70d66a1fd4a916300fee5276231103a3375cf2c45e94",
+  "observations": 54,
+  "api_errors": 0,
+  "machine_successes": 54,
+  "total_tokens": 325327,
+  "contaminated_implicit_chains": [
+    {
+      "length_level": "L2",
+      "document_repetition": 2,
+      "implicit_first_execution": 49,
+      "implicit_first_cached_tokens": 4992,
+      "prior_explicit_execution_range": [
+        34,
+        36
+      ]
+    },
+    {
+      "length_level": "L3",
+      "document_repetition": 2,
+      "implicit_first_execution": 52,
+      "implicit_first_cached_tokens": 8320,
+      "prior_explicit_execution_range": [
+        4,
+        6
+      ]
+    }
+  ],
+  "headline_clean_or_explicit": {
+    "implicit": {
+      "chains": 4,
+      "median_chain_cost_saving_pct": 30.00323611933432,
+      "mean_chain_cost_saving_pct": 31.13447293406054,
+      "median_chain_latency_saving_pct": 31.720840831281315,
+      "mean_chain_latency_saving_pct": 32.46982649049698
+    },
+    "explicit": {
+      "chains": 6,
+      "median_chain_cost_saving_pct": 51.38528974168541,
+      "mean_chain_cost_saving_pct": 51.214511074374464,
+      "median_chain_latency_saving_pct": 41.030346951559665,
+      "mean_chain_latency_saving_pct": 45.02506431252153
+    }
+  },
+  "chain_metrics": [
+    {
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 20.42402826855124,
+      "latency_saving_pct_vs_cold": 30.413430838645926,
+      "cached_tokens": 1536
+    },
+    {
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 20.393145161290324,
+      "latency_saving_pct_vs_cold": 23.29906498909303,
+      "cached_tokens": 1536
+    },
+    {
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 44.13827433628319,
+      "latency_saving_pct_vs_cold": 33.02825082391671,
+      "cached_tokens": 9984
+    },
+    {
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "contaminated": true,
+      "cost_saving_pct_vs_cold": 66.2632860938884,
+      "latency_saving_pct_vs_cold": 57.69141241506777,
+      "cached_tokens": 14976
+    },
+    {
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 39.5824439701174,
+      "latency_saving_pct_vs_cold": 43.138559310332255,
+      "cached_tokens": 14848
+    },
+    {
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "contaminated": true,
+      "cost_saving_pct_vs_cold": 66.67557545184245,
+      "latency_saving_pct_vs_cold": 69.05434751995354,
+      "cached_tokens": 24960
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 50.76224129227663,
+      "latency_saving_pct_vs_cold": 34.77961574345355,
+      "cached_tokens": 3912
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 50.763608870967744,
+      "latency_saving_pct_vs_cold": 20.537602417101304,
+      "cached_tokens": 3918
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 51.39076327433629,
+      "latency_saving_pct_vs_cold": 61.58249495814747,
+      "cached_tokens": 11998
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 51.379816209034544,
+      "latency_saving_pct_vs_cold": 36.95002811357886,
+      "cached_tokens": 11990
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 51.49546424759872,
+      "latency_saving_pct_vs_cold": 71.18997885330751,
+      "cached_tokens": 19936
+    },
+    {
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "contaminated": false,
+      "cost_saving_pct_vs_cold": 51.49517255203288,
+      "latency_saving_pct_vs_cold": 45.11066578954048,
+      "cached_tokens": 19902
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "version": "draft-0.1",
+  "seed": 20260906,
+  "chain_count": 18,
+  "observation_count": 54,
+  "observations": [
+    {
+      "execution_index": 1,
+      "chain_index": 1,
+      "observation_id": "cold_control-L2-d2-q1",
+      "chain_id": "cold_control-L2-d2",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 2,
+      "chain_index": 1,
+      "observation_id": "cold_control-L2-d2-q2",
+      "chain_id": "cold_control-L2-d2",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 3,
+      "chain_index": 1,
+      "observation_id": "cold_control-L2-d2-q3",
+      "chain_id": "cold_control-L2-d2",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 4,
+      "chain_index": 2,
+      "observation_id": "explicit-L3-d2-q1",
+      "chain_id": "explicit-L3-d2",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 5,
+      "chain_index": 2,
+      "observation_id": "explicit-L3-d2-q2",
+      "chain_id": "explicit-L3-d2",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 6,
+      "chain_index": 2,
+      "observation_id": "explicit-L3-d2-q3",
+      "chain_id": "explicit-L3-d2",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 7,
+      "chain_index": 3,
+      "observation_id": "implicit-L1-d2-q1",
+      "chain_id": "implicit-L1-d2",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 8,
+      "chain_index": 3,
+      "observation_id": "implicit-L1-d2-q2",
+      "chain_id": "implicit-L1-d2",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 9,
+      "chain_index": 3,
+      "observation_id": "implicit-L1-d2-q3",
+      "chain_id": "implicit-L1-d2",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 10,
+      "chain_index": 4,
+      "observation_id": "implicit-L1-d1-q1",
+      "chain_id": "implicit-L1-d1",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 11,
+      "chain_index": 4,
+      "observation_id": "implicit-L1-d1-q2",
+      "chain_id": "implicit-L1-d1",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 12,
+      "chain_index": 4,
+      "observation_id": "implicit-L1-d1-q3",
+      "chain_id": "implicit-L1-d1",
+      "strategy": "implicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 13,
+      "chain_index": 5,
+      "observation_id": "cold_control-L3-d2-q1",
+      "chain_id": "cold_control-L3-d2",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 14,
+      "chain_index": 5,
+      "observation_id": "cold_control-L3-d2-q2",
+      "chain_id": "cold_control-L3-d2",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 15,
+      "chain_index": 5,
+      "observation_id": "cold_control-L3-d2-q3",
+      "chain_id": "cold_control-L3-d2",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 16,
+      "chain_index": 6,
+      "observation_id": "cold_control-L2-d1-q1",
+      "chain_id": "cold_control-L2-d1",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 17,
+      "chain_index": 6,
+      "observation_id": "cold_control-L2-d1-q2",
+      "chain_id": "cold_control-L2-d1",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 18,
+      "chain_index": 6,
+      "observation_id": "cold_control-L2-d1-q3",
+      "chain_id": "cold_control-L2-d1",
+      "strategy": "cold_control",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 19,
+      "chain_index": 7,
+      "observation_id": "explicit-L1-d2-q1",
+      "chain_id": "explicit-L1-d2",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 20,
+      "chain_index": 7,
+      "observation_id": "explicit-L1-d2-q2",
+      "chain_id": "explicit-L1-d2",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 21,
+      "chain_index": 7,
+      "observation_id": "explicit-L1-d2-q3",
+      "chain_id": "explicit-L1-d2",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 22,
+      "chain_index": 8,
+      "observation_id": "implicit-L3-d1-q1",
+      "chain_id": "implicit-L3-d1",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 23,
+      "chain_index": 8,
+      "observation_id": "implicit-L3-d1-q2",
+      "chain_id": "implicit-L3-d1",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 24,
+      "chain_index": 8,
+      "observation_id": "implicit-L3-d1-q3",
+      "chain_id": "implicit-L3-d1",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 25,
+      "chain_index": 9,
+      "observation_id": "explicit-L1-d1-q1",
+      "chain_id": "explicit-L1-d1",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 26,
+      "chain_index": 9,
+      "observation_id": "explicit-L1-d1-q2",
+      "chain_id": "explicit-L1-d1",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 27,
+      "chain_index": 9,
+      "observation_id": "explicit-L1-d1-q3",
+      "chain_id": "explicit-L1-d1",
+      "strategy": "explicit",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 28,
+      "chain_index": 10,
+      "observation_id": "cold_control-L3-d1-q1",
+      "chain_id": "cold_control-L3-d1",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 29,
+      "chain_index": 10,
+      "observation_id": "cold_control-L3-d1-q2",
+      "chain_id": "cold_control-L3-d1",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 30,
+      "chain_index": 10,
+      "observation_id": "cold_control-L3-d1-q3",
+      "chain_id": "cold_control-L3-d1",
+      "strategy": "cold_control",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 31,
+      "chain_index": 11,
+      "observation_id": "implicit-L2-d1-q1",
+      "chain_id": "implicit-L2-d1",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 32,
+      "chain_index": 11,
+      "observation_id": "implicit-L2-d1-q2",
+      "chain_id": "implicit-L2-d1",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 33,
+      "chain_index": 11,
+      "observation_id": "implicit-L2-d1-q3",
+      "chain_id": "implicit-L2-d1",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 34,
+      "chain_index": 12,
+      "observation_id": "explicit-L2-d2-q1",
+      "chain_id": "explicit-L2-d2",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 35,
+      "chain_index": 12,
+      "observation_id": "explicit-L2-d2-q2",
+      "chain_id": "explicit-L2-d2",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 36,
+      "chain_index": 12,
+      "observation_id": "explicit-L2-d2-q3",
+      "chain_id": "explicit-L2-d2",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 37,
+      "chain_index": 13,
+      "observation_id": "cold_control-L1-d1-q1",
+      "chain_id": "cold_control-L1-d1",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 38,
+      "chain_index": 13,
+      "observation_id": "cold_control-L1-d1-q2",
+      "chain_id": "cold_control-L1-d1",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 39,
+      "chain_index": 13,
+      "observation_id": "cold_control-L1-d1-q3",
+      "chain_id": "cold_control-L1-d1",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 40,
+      "chain_index": 14,
+      "observation_id": "cold_control-L1-d2-q1",
+      "chain_id": "cold_control-L1-d2",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 41,
+      "chain_index": 14,
+      "observation_id": "cold_control-L1-d2-q2",
+      "chain_id": "cold_control-L1-d2",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 42,
+      "chain_index": 14,
+      "observation_id": "cold_control-L1-d2-q3",
+      "chain_id": "cold_control-L1-d2",
+      "strategy": "cold_control",
+      "length_level": "L1",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 43,
+      "chain_index": 15,
+      "observation_id": "explicit-L3-d1-q1",
+      "chain_id": "explicit-L3-d1",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 44,
+      "chain_index": 15,
+      "observation_id": "explicit-L3-d1-q2",
+      "chain_id": "explicit-L3-d1",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 45,
+      "chain_index": 15,
+      "observation_id": "explicit-L3-d1-q3",
+      "chain_id": "explicit-L3-d1",
+      "strategy": "explicit",
+      "length_level": "L3",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 46,
+      "chain_index": 16,
+      "observation_id": "explicit-L2-d1-q1",
+      "chain_id": "explicit-L2-d1",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 47,
+      "chain_index": 16,
+      "observation_id": "explicit-L2-d1-q2",
+      "chain_id": "explicit-L2-d1",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 48,
+      "chain_index": 16,
+      "observation_id": "explicit-L2-d1-q3",
+      "chain_id": "explicit-L2-d1",
+      "strategy": "explicit",
+      "length_level": "L2",
+      "document_repetition": 1,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 49,
+      "chain_index": 17,
+      "observation_id": "implicit-L2-d2-q1",
+      "chain_id": "implicit-L2-d2",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 50,
+      "chain_index": 17,
+      "observation_id": "implicit-L2-d2-q2",
+      "chain_id": "implicit-L2-d2",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 51,
+      "chain_index": 17,
+      "observation_id": "implicit-L2-d2-q3",
+      "chain_id": "implicit-L2-d2",
+      "strategy": "implicit",
+      "length_level": "L2",
+      "document_repetition": 2,
+      "chain_position": 3
+    },
+    {
+      "execution_index": 52,
+      "chain_index": 18,
+      "observation_id": "implicit-L3-d2-q1",
+      "chain_id": "implicit-L3-d2",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 1
+    },
+    {
+      "execution_index": 53,
+      "chain_index": 18,
+      "observation_id": "implicit-L3-d2-q2",
+      "chain_id": "implicit-L3-d2",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 2
+    },
+    {
+      "execution_index": 54,
+      "chain_index": 18,
+      "observation_id": "implicit-L3-d2-q3",
+      "chain_id": "implicit-L3-d2",
+      "strategy": "implicit",
+      "length_level": "L3",
+      "document_repetition": 2,
+      "chain_position": 3
+    }
+  ]
+}

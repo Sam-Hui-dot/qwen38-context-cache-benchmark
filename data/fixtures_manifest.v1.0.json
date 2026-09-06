@@ -1,0 +1,167 @@
+{
+  "version": "v1.0",
+  "fixtures": [
+    {
+      "fixture_id": "ledger-l1-1",
+      "level": "L1",
+      "seed": 20260907,
+      "character_count": 6146,
+      "utf8_byte_count": 6352,
+      "document_sha256": "11aea8561e2bd133dcd03971df11b1ec8dd320536ece0bbae8425d649b0e587d",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L1-1-KAPPA",
+          "evidence_id": "REC-0009"
+        },
+        {
+          "answer": "LIMIT-14105",
+          "evidence_id": "REC-0021"
+        },
+        {
+          "answer": "TICKET-60907",
+          "evidence_id": "REC-0036"
+        }
+      ]
+    },
+    {
+      "fixture_id": "ledger-l1-2",
+      "level": "L1",
+      "seed": 20260908,
+      "character_count": 6149,
+      "utf8_byte_count": 6355,
+      "document_sha256": "a2e6fb5f759f7dd9b14879e0a0ba2ac134a14fb1e08320ab492b475a6eded817",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L1-2-KAPPA",
+          "evidence_id": "REC-0009"
+        },
+        {
+          "answer": "LIMIT-14106",
+          "evidence_id": "REC-0021"
+        },
+        {
+          "answer": "TICKET-60908",
+          "evidence_id": "REC-0036"
+        }
+      ]
+    },
+    {
+      "fixture_id": "ledger-l2-1",
+      "level": "L2",
+      "seed": 20261907,
+      "character_count": 18685,
+      "utf8_byte_count": 19231,
+      "document_sha256": "ff135cdc052066a191efef954503d640a6c25dbfb1f050498add9064c336aacf",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L2-1-KAPPA",
+          "evidence_id": "REC-0026"
+        },
+        {
+          "answer": "LIMIT-15105",
+          "evidence_id": "REC-0063"
+        },
+        {
+          "answer": "TICKET-61907",
+          "evidence_id": "REC-0109"
+        }
+      ]
+    },
+    {
+      "fixture_id": "ledger-l2-2",
+      "level": "L2",
+      "seed": 20261908,
+      "character_count": 18672,
+      "utf8_byte_count": 19218,
+      "document_sha256": "9128258878808b8b1e9a5a2449bc64e1e4d72d2ada2d9400179b7a922ed8f0d7",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L2-2-KAPPA",
+          "evidence_id": "REC-0026"
+        },
+        {
+          "answer": "LIMIT-15106",
+          "evidence_id": "REC-0063"
+        },
+        {
+          "answer": "TICKET-61908",
+          "evidence_id": "REC-0109"
+        }
+      ]
+    },
+    {
+      "fixture_id": "ledger-l3-1",
+      "level": "L3",
+      "seed": 20262907,
+      "character_count": 31221,
+      "utf8_byte_count": 32107,
+      "document_sha256": "e01550318aa99598c7d5aaf7b63c49f7661c6b91dd4dc92c973ae2b14141c5b9",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L3-1-KAPPA",
+          "evidence_id": "REC-0043"
+        },
+        {
+          "answer": "LIMIT-16105",
+          "evidence_id": "REC-0106"
+        },
+        {
+          "answer": "TICKET-62907",
+          "evidence_id": "REC-0181"
+        }
+      ]
+    },
+    {
+      "fixture_id": "ledger-l3-2",
+      "level": "L3",
+      "seed": 20262908,
+      "character_count": 31212,
+      "utf8_byte_count": 32098,
+      "document_sha256": "be4e572a2a0ec255d99db6046cef27479d86747f3dc09208d052065a39726d4f",
+      "questions": [
+        "找出台账中唯一的 owner_code，并返回其值及所在记录 id。",
+        "找出台账中唯一的 approval_limit，并返回其值及所在记录 id。",
+        "找出台账中唯一的 rollback_ticket，并返回其值及所在记录 id。"
+      ],
+      "gold": [
+        {
+          "answer": "OWNER-L3-2-KAPPA",
+          "evidence_id": "REC-0043"
+        },
+        {
+          "answer": "LIMIT-16106",
+          "evidence_id": "REC-0106"
+        },
+        {
+          "answer": "TICKET-62908",
+          "evidence_id": "REC-0181"
+        }
+      ]
+    }
+  ]
+}
