@@ -106,7 +106,6 @@
 
 ## 八、结果一：显式缓存的复用覆盖率与稳定性实测
 
-> 📌 **【此处上传并插入：图 1 缓存覆盖率 (fig01_cache_coverage_cn.png)】**
 ![缓存覆盖率](https://raw.githubusercontent.com/Sam-Hui-dot/qwen38-context-cache-benchmark/main/article_assets/fig01_cache_coverage_cn.png)
 
 实测数据表明：
@@ -118,7 +117,6 @@
 
 ## 九、结果二：延迟阶梯实测——从 3.0 秒到 0.8 秒的加速表现
 
-> 📌 **【此处上传并插入：图 2 不同长前缀下的端到端响应延迟 (fig02_latency_cn.png)】**
 ![响应延迟](https://raw.githubusercontent.com/Sam-Hui-dot/qwen38-context-cache-benchmark/main/article_assets/fig02_latency_cn.png)
 
 *注：图中展示各策略在相应长度档位下纳入请求的中位延迟，其中隐式缓存仅统计无串扰子集；下表进一步按链内位置使用均值拆解显式缓存的创建与复用延迟。*
@@ -140,7 +138,6 @@
 
 ## 十、结果三：成本模型与 ROI 推导——到底复用几次才真正回本？
 
-> 📌 **【此处上传并插入：图 3 等价输入成本 (fig03_cost_cn.png)】**
 ![等价输入成本](https://raw.githubusercontent.com/Sam-Hui-dot/qwen38-context-cache-benchmark/main/article_assets/fig03_cost_cn.png)
 
 显式缓存虽然有单价 10% 的深度折扣，但首次创建需要多收 25% 溢价。这里给出严密的成本函数与回本周期推导：
@@ -163,7 +160,6 @@
 
 ## 十一、深度排障复盘：还原 L2-d2 与 L3-d2 隐式缓存被意外预热的时间线
 
-> 📌 **【此处上传并插入：图 4 执行顺序审计热图 (fig04_execution_heatmap_cn.png)】**
 ![执行顺序审计](https://raw.githubusercontent.com/Sam-Hui-dot/qwen38-context-cache-benchmark/main/article_assets/fig04_execution_heatmap_cn.png)
 
 本次实验最值得公开复盘的一个技术现场，是**隐式缓存出现的两次“异常提早命中”**。
